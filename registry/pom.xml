@@ -6,7 +6,7 @@
 	<groupId>com.smartcloud.iot</groupId>
 	<artifactId>registry</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>registry</name>
 	<description>Eureka service</description>
@@ -64,6 +64,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>registry</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

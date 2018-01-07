@@ -6,7 +6,7 @@
 	<groupId>com.smartcloud.iot</groupId>
 	<artifactId>config-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>config-service</name>
 	<description>Config service</description>
@@ -60,6 +60,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>config-service</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
