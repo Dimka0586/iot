@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: inner-sensor-simulator
+
+mqtt-client:
+  serverURI:  tcp://localhost:1883
+rabbit-hostname:  localhost
